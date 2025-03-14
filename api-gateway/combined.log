@@ -40,3 +40,82 @@
 {"level":"info","message":"Received POST request to /v1/auth/logout","service":"api-gateway","timestamp":"2025-03-12T18:45:59.936Z"}
 {"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-12T18:45:59.936Z"}
 {"level":"info","message":"Response received from Identity Service: 200","service":"api-gateway","timestamp":"2025-03-12T18:46:00.159Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2025-03-14T11:14:21.871Z"}
+{"level":"info","message":"Identity Service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2025-03-14T11:14:21.876Z"}
+{"level":"info","message":"Post Service is running on port http://localhost:3002","service":"api-gateway","timestamp":"2025-03-14T11:14:21.878Z"}
+{"level":"info","message":"Redis Url redis://127.0.0.1:6379","service":"api-gateway","timestamp":"2025-03-14T11:14:21.879Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-03-14T11:15:56.017Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-14T11:15:56.018Z"}
+{"level":"info","message":"Response received from Identity Service: 200","service":"api-gateway","timestamp":"2025-03-14T11:15:56.672Z"}
+{"level":"info","message":"Received POST request to /v1/create-post","service":"api-gateway","timestamp":"2025-03-14T11:24:59.355Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-14T11:24:59.356Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2025-03-14T11:25:13.897Z"}
+{"level":"info","message":"Identity Service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2025-03-14T11:25:13.900Z"}
+{"level":"info","message":"Post Service is running on port http://localhost:3002","service":"api-gateway","timestamp":"2025-03-14T11:25:13.901Z"}
+{"level":"info","message":"Redis Url redis://127.0.0.1:6379","service":"api-gateway","timestamp":"2025-03-14T11:25:13.902Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2025-03-14T11:25:36.438Z"}
+{"level":"info","message":"Identity Service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2025-03-14T11:25:36.441Z"}
+{"level":"info","message":"Post Service is running on port http://localhost:3002","service":"api-gateway","timestamp":"2025-03-14T11:25:36.442Z"}
+{"level":"info","message":"Redis Url redis://127.0.0.1:6379","service":"api-gateway","timestamp":"2025-03-14T11:25:36.442Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-03-14T11:26:25.922Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-14T11:26:25.924Z"}
+{"level":"info","message":"Response received from Identity Service: 200","service":"api-gateway","timestamp":"2025-03-14T11:26:26.233Z"}
+{"level":"info","message":"Received POST request to /v1/create-post","service":"api-gateway","timestamp":"2025-03-14T11:27:05.606Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-14T11:27:05.607Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-03-14T11:27:20.865Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-14T11:27:20.866Z"}
+{"level":"info","message":"Response received from Post Service: 500","service":"api-gateway","timestamp":"2025-03-14T11:27:20.915Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-03-14T11:31:23.026Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-14T11:31:23.026Z"}
+{"level":"info","message":"Response received from Post Service: 201","service":"api-gateway","timestamp":"2025-03-14T11:31:23.168Z"}
+{"level":"info","message":"Received GET request to /v1/posts","service":"api-gateway","timestamp":"2025-03-14T11:50:51.082Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-14T11:50:51.083Z"}
+{"level":"warn","message":"Access Attempt Without Valid Token","service":"api-gateway","timestamp":"2025-03-14T11:50:51.084Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-03-14T11:50:57.690Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-14T11:50:57.691Z"}
+{"level":"info","message":"Response received from Identity Service: 200","service":"api-gateway","timestamp":"2025-03-14T11:50:57.938Z"}
+{"level":"info","message":"Received GET request to /v1/posts","service":"api-gateway","timestamp":"2025-03-14T11:51:15.792Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-14T11:51:15.792Z"}
+{"level":"info","message":"Response received from Post Service: 404","service":"api-gateway","timestamp":"2025-03-14T11:51:15.815Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-03-14T11:51:43.813Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-14T11:51:43.814Z"}
+{"level":"info","message":"Response received from Post Service: 201","service":"api-gateway","timestamp":"2025-03-14T11:51:43.974Z"}
+{"level":"info","message":"Received GET request to /v1/posts","service":"api-gateway","timestamp":"2025-03-14T11:51:51.045Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-14T11:51:51.046Z"}
+{"level":"info","message":"Response received from Post Service: 404","service":"api-gateway","timestamp":"2025-03-14T11:51:51.053Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"api-gateway","timestamp":"2025-03-14T11:52:19.358Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-14T11:52:19.359Z"}
+{"level":"info","message":"Response received from Post Service: 200","service":"api-gateway","timestamp":"2025-03-14T11:52:20.012Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"api-gateway","timestamp":"2025-03-14T11:53:20.936Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-14T11:53:20.938Z"}
+{"level":"info","message":"Response received from Post Service: 200","service":"api-gateway","timestamp":"2025-03-14T11:53:20.987Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"api-gateway","timestamp":"2025-03-14T11:53:22.998Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-14T11:53:22.998Z"}
+{"level":"info","message":"Response received from Post Service: 200","service":"api-gateway","timestamp":"2025-03-14T11:53:23.006Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"api-gateway","timestamp":"2025-03-14T11:53:24.380Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-14T11:53:24.381Z"}
+{"level":"info","message":"Response received from Post Service: 200","service":"api-gateway","timestamp":"2025-03-14T11:53:24.391Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"api-gateway","timestamp":"2025-03-14T11:53:25.652Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-14T11:53:25.653Z"}
+{"level":"info","message":"Response received from Post Service: 200","service":"api-gateway","timestamp":"2025-03-14T11:53:25.664Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"api-gateway","timestamp":"2025-03-14T11:57:29.160Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-14T11:57:29.160Z"}
+{"level":"info","message":"Response received from Post Service: 200","service":"api-gateway","timestamp":"2025-03-14T11:57:29.322Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"api-gateway","timestamp":"2025-03-14T11:57:32.655Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-14T11:57:32.656Z"}
+{"level":"info","message":"Response received from Post Service: 200","service":"api-gateway","timestamp":"2025-03-14T11:57:32.666Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"api-gateway","timestamp":"2025-03-14T11:57:40.682Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-14T11:57:40.683Z"}
+{"level":"info","message":"Response received from Post Service: 200","service":"api-gateway","timestamp":"2025-03-14T11:57:40.693Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"api-gateway","timestamp":"2025-03-14T11:57:41.817Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-14T11:57:41.818Z"}
+{"level":"info","message":"Response received from Post Service: 200","service":"api-gateway","timestamp":"2025-03-14T11:57:41.827Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-03-14T11:57:47.433Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-14T11:57:47.434Z"}
+{"level":"info","message":"Response received from Post Service: 201","service":"api-gateway","timestamp":"2025-03-14T11:57:47.585Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"api-gateway","timestamp":"2025-03-14T11:57:51.535Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-14T11:57:51.536Z"}
+{"level":"info","message":"Response received from Post Service: 200","service":"api-gateway","timestamp":"2025-03-14T11:57:51.692Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"api-gateway","timestamp":"2025-03-14T11:57:53.029Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-14T11:57:53.030Z"}
+{"level":"info","message":"Response received from Post Service: 200","service":"api-gateway","timestamp":"2025-03-14T11:57:53.039Z"}
