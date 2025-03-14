@@ -119,3 +119,24 @@
 {"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"api-gateway","timestamp":"2025-03-14T11:57:53.029Z"}
 {"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-14T11:57:53.030Z"}
 {"level":"info","message":"Response received from Post Service: 200","service":"api-gateway","timestamp":"2025-03-14T11:57:53.039Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"api-gateway","timestamp":"2025-03-14T13:27:10.111Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-14T13:27:10.112Z"}
+{"level":"warn","message":"Invalid Token!","service":"api-gateway","timestamp":"2025-03-14T13:27:10.114Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-03-14T13:27:17.513Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-14T13:27:17.514Z"}
+{"level":"info","message":"Response received from Identity Service: 200","service":"api-gateway","timestamp":"2025-03-14T13:27:18.262Z"}
+{"level":"info","message":"Received GET request to /v1/posts/all-posts","service":"api-gateway","timestamp":"2025-03-14T13:27:33.943Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-14T13:27:33.944Z"}
+{"level":"info","message":"Response received from Post Service: 200","service":"api-gateway","timestamp":"2025-03-14T13:27:34.220Z"}
+{"level":"info","message":"Received GET request to /v1/posts/67d419bb9532537cf90fa867","service":"api-gateway","timestamp":"2025-03-14T13:28:19.019Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-14T13:28:19.020Z"}
+{"level":"warn","message":"Access Attempt Without Valid Token","service":"api-gateway","timestamp":"2025-03-14T13:28:19.020Z"}
+{"level":"info","message":"Received GET request to /v1/posts/67d419bb9532537cf90fa867","service":"api-gateway","timestamp":"2025-03-14T13:28:44.744Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-14T13:28:44.745Z"}
+{"level":"info","message":"Response received from Post Service: 200","service":"api-gateway","timestamp":"2025-03-14T13:28:44.869Z"}
+{"level":"info","message":"Received DELETE request to /v1/posts/67d419bb9532537cf90fa867","service":"api-gateway","timestamp":"2025-03-14T13:34:37.041Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-14T13:34:37.041Z"}
+{"level":"info","message":"Response received from Post Service: 200","service":"api-gateway","timestamp":"2025-03-14T13:34:37.114Z"}
+{"level":"info","message":"Received GET request to /v1/posts/67d419bb9532537cf90fa867","service":"api-gateway","timestamp":"2025-03-14T13:35:12.144Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-14T13:35:12.145Z"}
+{"level":"info","message":"Response received from Post Service: 404","service":"api-gateway","timestamp":"2025-03-14T13:35:12.217Z"}
